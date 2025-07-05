@@ -1,0 +1,95 @@
+
+
+.correct {
+  background-color: #28a745; 
+  color: white;
+}
+
+.incorrect {
+  background-color: #dc3545; 
+  color: white;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2b003b; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background-color: #4b0082; 
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  max-width: 400px;
+  width: 90%;
+}
+
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option {
+  padding: 10px;
+  background-color: #6a0dad; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.option:hover {
+  background-color: #7b1fa2;
+}
+
+
+.correct {
+  background-color: green !important;
+}
+
+.incorrect {
+  background-color: red !important;
+}
+
+
+#scorebox {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+
+.controls button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #8a2be2; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #a64af3;
+}
